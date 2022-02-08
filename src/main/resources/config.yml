@@ -1,0 +1,29 @@
+# Token used for ipinfo.io API
+# This is required or the plugin will be disabled
+# This cannot be changed once the plugin is enabled
+token: YOUR_TOKEN_HERE
+
+# Spawn point for all country / region / city
+# If not set, it will spawn in the world's default spawn point
+# This is case-insensitive. Must use upper case for country code and upper case for the first letter of the region and city
+###############################################################################
+### Example for United States
+# US:
+#   # A default spawn point for US if you haven't specified region or city down below - Priority 3
+#   default:
+#     x:
+#     y:
+#     z:
+#   # A default spawn point for US Region if you haven't specified city down below - Priority 2
+#   region:
+#     #RegionName:
+#       x:
+#       y:
+#       z:
+#   # A default spawn point for US City - Priority 1
+#   city:
+#     #CityName:
+#       x:
+#       y:
+#       z:
+###############################################################################

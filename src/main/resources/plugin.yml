@@ -1,0 +1,21 @@
+name: SpawnInternetProtocol
+version: ${version}
+main: org.disboard.minecraft.SIPPlugin
+api-version: 1.18
+author: eve0415
+description: A simple plugin for PaperMC server that allows you to change spawn point depending on player's IP address.
+website: https://minecraft.disboard.org/
+default-permission: op
+commands:
+  sip:
+    description: All SpawnInternetProtocol commands
+    usage: |
+      /<command> reload
+      /<command> tp <player> <country> ["region" | "city"] [<region> | <city>]
+permissions:
+  sip.*:
+    description: All SpawnInternetProtocol permissions
+    default: op
+    children:
+      sip.reload: true
+      sip.tp: true
